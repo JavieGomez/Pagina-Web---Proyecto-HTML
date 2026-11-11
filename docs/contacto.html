@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia ConquerBlocks | Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Comun/Logotipo-ConquerBlocks.svg" 
+        alt="Logotipo de ConquerBlocks" width="200" height="100">
+        <a href="index.html">Home</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="cursos/cursos.html">Cursos</a>
+        <a href="blog.html">Blog</a>
+        <a href="registro.html">Registro</a>
+        <a href="login.html">Login</a>
+        <a href="contacto.html">Contacto</a>
+        <hr>
+    </header>
+
+    <main>
+        <h1>CONTACTO</h1>
+        <section>
+            <h2>Contacta con nosotros</h2>
+            <p>Tienes dudas sobre nuestros másteres o quieres saber cuál se adapta mejor a ti? 
+                Escríbenos y el equipo de Conquer Blocks te ayudará.</p>
+        </section>
+        
+        <form action="">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <p>
+                    <label for="name">Nombre y apellidos</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="phone">Teléfono(Opcional)</label>
+                    <input type="text" name="phone" id="phone">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Datos sobre la consulta</legend>
+                <p>
+                    <label for="master">Máster de interés</label>
+                    <select name="master" id="master" >
+                        <option value="">-</option>                        
+                        <option value="FullStack">FullStack</option>
+                        <option value="IA">Inteligencia artificial</option>
+                        <option value="Blockchain">Blockchain</option>
+                        <option value="Ciberseguridad">Ciberseguridad</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Descripción del mensaje</label><br/>
+                    <textarea name="message" id="message" cols="40" rows="10" required></textarea>
+                </p>
+            </fieldset>
+            <p>
+                <input type="checkbox" name="politica" id="politica" required>
+                <label for="politica">He leído y acepto la política de privacidad </label>
+            </p>
+            <p>
+                <button>ENVIAR</button>
+                <input type="reset" value="Borrar formulario">
+            </p>
+
+        </form>
+    </main>
+
+     <footer class="footer">
+        <hr>
+        <p>&copy; ConquerBlocks 2026 - <a href="aviso-legal.html">Aviso legal</a></p>    
+    </footer>
+    
+    
+    
+</body>
+</html>

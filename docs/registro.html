@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia ConquerBlocks | Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Comun/Logotipo-ConquerBlocks.svg" 
+        alt="Logotipo de ConquerBlocks" width="200" height="100">
+        <a href="index.html">Home</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="cursos/cursos.html">Cursos</a>
+        <a href="blog.html">Blog</a>
+        <a href="registro.html">Registro</a>
+        <a href="login.html">Login</a>
+        <a href="contacto.html">Contacto</a>
+        <hr>
+    </header>
+
+    <main>
+        <h1>REGISTRO</h1>
+        <p>Rellene el formulario para realizar su registro</p>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>
+                    <label for="nombre">Nombre y apellidos</label>
+                    <input type="text" name="nombre" id="nombre"  required>
+                </p>
+                <p>
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha"  required>
+                </p>
+                <p>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="direccion">Direccion</label>
+                    <input type="text" name="direccion" id="direccion">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Información adicional</legend>
+                <p>
+                    <label for="pagina">Página web</label>
+                    <input type="url" name="pagina" id="pagina">
+                </p>
+                <p>
+                    <label for="foto">Foto</label>
+                    <input type="file" name="foto" id="foto" required>
+                </p>
+                <p>
+                    <label for="bio">Biografía</label><br/>
+                    <textarea name="biografia" id="biografia" rows="10" cols="50"></textarea>
+                </p>
+            </fieldset>
+            <p>
+                <button>REGISTRAR</button>
+                <input type="reset" value="Borrar formulario">
+            </p>
+
+        </form>
+
+    </main>
+    
+
+    <footer class="footer">
+        <hr>
+        <p>&copy; ConquerBlocks 2026 - <a href="aviso-legal.html">Aviso legal</a></p>    
+    </footer>
+    
+</body>
+</html>
